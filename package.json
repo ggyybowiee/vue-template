@@ -1,0 +1,59 @@
+{
+  "name": "hello-world",
+  "description": "this is a test Vue3 and xb-vue-plugins-msg Project",
+  "version": "0.1.1",
+  "private": false,
+  "license": "MIT",
+  "main": "lib/xb-vue-plugins-msg.umd.min.js",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "lib": "vue-cli-service build --target lib --name xb-vue-plugins-msg --dest lib src/plugins/index.js"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "core-js": "^2.6.5",
+    "element-ui": "^2.13.1",
+    "less-loader": "^6.1.0",
+    "lodash": "^4.17.15",
+    "moment": "^2.25.3",
+    "vue": "^2.6.10",
+    "vue-i18n": "^8.17.5",
+    "vue-router": "^3.1.6",
+    "vuex": "^3.4.0",
+    "xb-vue-plugins-msg": "^0.1.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.12.0",
+    "@vue/cli-plugin-eslint": "^3.12.0",
+    "@vue/cli-service": "^3.12.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}

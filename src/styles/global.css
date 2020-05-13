@@ -1,0 +1,50 @@
+/*
+ * @Author: xubo
+ * @Date: 2020-05-13 16:13:28
+ * @Last Modified by:   xubo
+ * @Last Modified time: 2020-05-13 16:13:28
+ */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  margin: 0 auto;
+  color: #474e58;
+  min-width: 320px;
+  max-width: 800px;
+}
+
+body {
+  position: relative;
+  font-family: Microsoft YaHei;
+  min-width: 320px;
+  overflow: auto;
+  max-height: 100vh;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  cursor: pointer;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* 清除浮动 */
+.clearfloat:after {
+  display: block;
+  clear: both;
+  content: '';
+  visibility: hidden;
+  height: 0;
+}
+
+.clearfloat {
+  zoom: 1;
+}

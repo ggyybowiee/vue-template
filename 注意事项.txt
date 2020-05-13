@@ -1,0 +1,20 @@
+vue 插件 发布到npmjs
+
+改package.json
+
+
+设置淘宝镜像：npm config set registry http://registry.npm.taobao.org/
+改淘宝镜像为npmjs:  npm config set registry http://registry.npmjs.org
+
+登录npmjs，输入账号密码
+npm login
+
+然后发布
+npm publish 
+
+如果要取消发布
+
+npm unpublish packagename@version
+
+
+发布后，安装时，package.json的name不能与安装的包名相同
